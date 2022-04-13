@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>E-Commerce Website Using Bootstap 5</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Themify Icons -->
+    <link rel="stylesheet" href="css/themify.css">  
+
+    <!-- Bootstrap 5 CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css"> 
+
+    <!-- Style css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Responsive 5 css -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+
+    <!-- Navigation section -->
+     <!-- Navbar  -->
+     <link rel="stylesheet" href="css/bootstrap.min.css" />
+     
+   </head>
+   <body>
+     <!-- Navbar  -->
+     <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+       <div class="container">
+         <a class="navbar-brand" href="#">Web Zone</a>
+         <button
+           class="navbar-toggler"
+           type="button"
+           data-bs-toggle="collapse"
+           data-bs-target="#navbarNav"
+           aria-controls="navbarNav"
+           aria-expanded="false"
+           aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+ 
+         <div class="collapse navbar-collapse" id="navbarNav">
+           <div class="mx-auto"></div>
+           <ul class="navbar-nav">
+             <li class="nav-item">
+               <a class="nav-link text-white" href="http://127.0.0.1:5500/toggle.html">Home</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link text-red" href="#products">About</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link text-red" href="#special">Blog</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link text-red" href="#testimonial">Pricing</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link text-red" href="#contact">Contact</a>
+             </li>
+           </ul>
+         </div>
+       </div>
+     </nav>
+     <style>
+      .banner-image {
+        background-image: url('css/image/banner-img.jpg');
+        background-size: cover;
+      }
+    </style>
+     
+     <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+      var nav = document.querySelector('nav');
+
+      window.addEventListener('scroll', function () {
+        if (window.pageYOffset > 100) {
+          nav.classList.add('bg-dark', 'shadow');
+        } else {
+          nav.classList.remove('bg-dark', 'shadow');
+        }
+      });
+      </script>
+    <section id="products" class="products">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="headline text-center mb-5">
+                <h2 class="pb-3 position-relative d-inline-block">FEATURED PRODUCTS</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+           <div class="col-sm-6 col-lg-4">
+             <a href="#" class="d-block text-center mb-4">
+               <div class="product-list">
+                 <div class="product-image position-relative"> 
+                     <span class="sale">Sale</span>
+                     <img src="https://cdn.shopify.com/s/files/1/0047/9995/5030/products/LVK22011_0371_40_800x.gif?v=1615298491" alt="products" class="img-fluid product-image-first">
+                     <img src="https://5.imimg.com/data5/FN/UK/MY-31413555/fancy-girl-shoes-500x500.jpg" alt="products" class="img-fluid product-image-secondary"> 
+                 </div>
+                 <div class="product-name pt-3">
+                   <h3 class="text-capitalize">shoes for man&girls</h3>
+                   <p class="mb-0 amount">Rs400.00 <del>Rs580.00</del></p>
+                   <div class="py-1">
+                       <span class="ti-star"></span>
+                       <span class="ti-star"></span>
+                       <span class="ti-star"></span>
+                       <span class="ti-star"></span>
+                       <span class="ti-star"></span>
+                   </div>
+                   <button type="button" class="add_to_Card">ADD TO CARD</button>
+                 </div>
+               </div>
+             </a> 
+           </div>
+           <div class="col-sm-6 col-lg-4">
+             <a href="#" class="d-block text-center mb-4">
+               <div class="product-list">
+                 <div class="product-image position-relative">  
+                     <img src="css/image/ladybag2.jpg" alt="products" class="img-fluid product-image-first">
+                     <img src="css/image/ladybag.jpeg" alt="products" class="img-fluid product-image-secondary"> 
+                 </div>
+                 <div class="product-name pt-3">
+                   <h3 class="text-capitalize">women totes lady handbag</h3>
+                   <p class="mb-0 amount">$300.00</p>
+                   <div class="py-1">
+                       <span class="ti-star active"></span>
+                       <span class="ti-star active"></span>
+                       <span class="ti-star active"></span>
+                       <span class="ti-star"></span>
+                       <span class="ti-star"></span>
+                   </div>
+                   <button type="button" class="add_to_Card">ADD TO CARD</button>
+                 </div>
+               </div>
+             </a> 
+           </div>
+           <div class="col-sm-6 col-lg-4">
+             <a href="#" class="d-block text-center mb-4">
+               <div class="product-list">
+                 <div class="product-image position-relative">  
+                     <img src="css/image/groom dress.jpg" alt="products" class="img-fluid product-image-first">
+                     <img src="css/image/groom dress.jpg" alt="products" class="img-fluid product-image-secondary"> 
+                 </div>
+                 <div class="product-name pt-3">
+                   <h3 class="text-capitalize">groom dress</h3>
+                   <p class="mb-0 amount">$600.00</p>
+                   <div class="py-1">
+                       <span class="ti-star active"></span>
+                       <span class="ti-star active"></span>
+                       <span class="ti-star active"></span>
+                       <span class="ti-star active"></span>
+                       <span class="ti-star active"></span>
+                   </div>
+                   <button type="button" class="add_to_Card">ADD TO CARD</button>
+                 </div>
+               </div>
+             </a> 
+           </div>
+           <div class="col-sm-6 col-lg-4">
+             <a href="#" class="d-block text-center mb-4">
+               <div class="product-list">
+                 <div class="product-image position-relative">  
+                     <img src="css/image/laptop bag.jpeg" alt="products" class="img-fluid product-image-first">
+                     <img src="css/image/laptop bag.jpeg" alt="products" class="img-fluid product-image-secondary"> 
+                 </div>
+                 <div class="product-name pt-3">
+                   <h3 class="text-capitalize">Safe laptop bag</h3>
+                   <p class="mb-0 amount">rs500.00</p>
+                   <div class="py-1">
+                       <span class="ti-star active"></span>
+                       <span class="ti-star active"></span>
+                       <span class="ti-star"></span>
+                       <span class="ti-star"></span>
+                       <span class="ti-star"></span>
+                   </div>
+                   <button type="button" class="add_to_Card">ADD TO CARD</button>
+                 </div>
+               </div>
+             </a> 
+           </div>
+           <div class="col-sm-6 col-lg-4">
+             <a href="#" class="d-block text-center mb-4">
+               <div class="product-list">
+                 <div class="product-image position-relative">
+                     <span class="sale">Sale</span>  
+                     <img src="css/image/image2.jpg" alt="products" class="img-fluid product-image-first">
+                     <img src="css/image/image2.jpg" alt="products" class="img-fluid product-image-secondary"> 
+                 </div>
+                 <div class="product-name pt-3">
+                   <h3 class="text-capitalize">Saree Dress Ladies Sleeve</h3>
+                   <p class="mb-0 amount">Rs600.00</p>
+                   <div class="py-1">
+                       <span class="ti-star active"></span>
+                       <span class="ti-star active"></span>
+                       <span class="ti-star active"></span>
+                       <span class="ti-star"></span>
+                       <span class="ti-star"></span>
+                   </div>
+                   <button type="button" class="add_to_Card">ADD TO CARD</button>
+                 </div>
+               </div>
+             </a> 
+           </div>
+           <div class="col-sm-6 col-lg-4">
+             <a href="#" class="d-block text-center mb-4">
+               <div class="product-list">
+                 <div class="product-image position-relative">  
+                     <img src="css/image/jeans.webp" alt="products" class="img-fluid product-image-first">
+                     <img src="css/image/jeans.webp" alt="products" class="img-fluid product-image-secondary"> 
+                 </div>
+                 <div class="product-name pt-3">
+                   <h3 class="text-capitalize">Stylish jeans For Men </h3>
+                   <p class="mb-0 amount">Rs500.00</p>
+                   <div class="py-1">
+                       <span class="ti-star active"></span>
+                       <span class="ti-star active"></span>
+                       <span class="ti-star active"></span>
+                       <span class="ti-star active"></span>
+                       <span class="ti-star"></span>
+                   </div>
+                   <button type="button" class="add_to_Card">ADD TO CARD</button>
+                 </div>
+               </div>
+             </a> 
+           </div>
+         </div>
+ 
+ 
+         <!-- UP to 75% Off -->
+         <div class="overflow-hidden my-5">
+           <div class="row">
+             <div class="col-sm-12 up_to_off">
+               <img src="css/image/jeans.webp" alt="offers" class="img-fluid w-100"> 
+               <div class="up_to_content">
+                 <h2>UP TO 75% OFF SPRINGSALE!</h2>
+               </div>
+             </div>
+           </div>
+         </div>
+        </div>
+      </section>
+ 
+</body>
+</html>
